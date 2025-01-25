@@ -45,7 +45,7 @@ def get_db_connection():
         )
         return conn
     except Exception as e:
-        logging.error("Failed to connect to PostgreSQL: %s", e)
+        logging.error("Fail to connect to PostgreSQL: %s", e)
         raise
 
 # Function to drop and recreate the table

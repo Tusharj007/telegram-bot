@@ -22,7 +22,7 @@ def load_tasks():
     return {}
 
 def save_tasks(tasks):
-    """Save tasks to the JSON file."""
+    """Save tasks to the JSON file"""
     with open(TASKS_FILE, "w") as f:
         json.dump(tasks, f)
 
